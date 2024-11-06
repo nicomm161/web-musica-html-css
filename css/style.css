@@ -1,0 +1,229 @@
+
+
+body {
+    /* Defineix el tipus de lletra, marges, farciment, color de fons, color de text i alineació del contingut al centre per a tot el cos de la pàgina */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa; 
+    color: #333;
+    text-align: center;
+}
+
+header {
+    /* Defineix el fons de la capçalera, l'amplada, el farciment i una ombra per a donar profunditat */
+    background: #00796b; 
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    /* Estil per als enllaços de la capçalera: treu subratllat, color blanc, i mostrats en línia */
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+header h1 {
+    /* H1 dins de la capçalera: mostrat en línia amb altres elements */
+    display: inline;
+}
+
+header img {
+    /* Imatge dins de la capçalera: defineix alçada, arrodoneix cantons, i marges */
+    height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.barra {
+    /* Estil per a la barra de navegació: marges a dalt i esquerra, i mostrada en línia */
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.barra a {
+    /* Estil per als enllaços de la barra: color, farciment, marges, fons i arrodoniment */
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 5px;
+    background: #00796b;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.barra a:hover {
+    /* Canvi de color de fons per a enllaços de la barra quan es passa el ratolí per sobre */
+    background: #004d40; 
+}
+
+main {
+    /* Farciment per a la secció principal del contingut */
+    padding: 20px;
+}
+
+form {
+    /* Estil per al formulari: centrat en línia, alineació a l'esquerra, color de fons, farciment, arrodoniment, i ombra */
+    display: inline-block;
+    text-align: left;
+    background: #b2dfdb; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    /* Mostra les etiquetes en bloc i afegeix marges per a separar-les dels altres elements */
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    /* Estil dels camps d'entrada: amplada fixa, farciment, marges, bordes i arrodoniment */
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    /* Estil per als botons: color de fons, color de text, farciment, arrodoniment, cursor, i transició de fons */
+    background: #004d40; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    /* Canvi de color de fons per als botons quan es passa el ratolí per sobre */
+    background: #00251a; 
+}
+
+#pagaments {
+    /* Mostra el div de pagaments en línia */
+    display: inline-block;
+}
+
+#pagaments img {
+    /* Estil per a les imatges de pagaments: amplada, alçada, arrodoniment, i marges */
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+#pagaments img:hover {
+    /* Augmenta la mida de les imatges de pagaments quan es passa el ratolí per sobre */
+    transform: scale(1.05);
+}
+
+#botonspagar {
+    /* Marges inferiors per al div de botons de pagament */
+    margin-bottom: 20px;
+}
+
+#botonspagar button {
+    /* Estil dels botons de pagament: color de fons, color de text, centrat en línia, arrodoniment i transició de fons */
+    background: #004d40; 
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s ease;
+}
+
+#botonspagar button:hover {
+    /* Canvia el color de fons dels botons de pagament quan es passa el ratolí per sobre */
+    background: #00251a; 
+}
+
+#noticias {
+    /* Estil per a la secció de notícies: amplada, marges, i centrat en línia */
+    width: 80%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+#noticias h3 {
+    /* Color de text per als títols a la secció de notícies */
+    color: #004d40; 
+}
+
+#noticias img {
+    /* Estil de les imatges de notícies: amplada, alçada, arrodoniment, transició de transformació i marges */
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding-right: 10px;
+    gap: 15px;
+}
+
+#noticias img:hover {
+    /* Augmenta la mida de les imatges de notícies quan es passa el ratolí per sobre */
+    transform: scale(1.05);
+}
+
+footer {
+    /* Fons de peu de pàgina, amplada, i farciment */
+    background: #00796b; 
+    width: 100%;
+    padding: 20px;
+}
+
+footer h1 {
+    /* Color de text per a l'H1 de peu de pàgina, amb farciment a la dreta i mostrat en línia */
+    padding-right: 200px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+footer img {
+    /* Estil de les imatges a peu de pàgina: alçada, mostrat en línia i arrodoniment */
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+footer .XS {
+    /* Estil per a enllaços d'icones socials a peu de pàgina: marges i centrat en línia */
+    margin-top: 10px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+footer .XS a {
+    /* Color de text i mostrats en línia per a enllaços de peu de pàgina */
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .XS img {
+    /* Alçada per a icones socials a peu de pàgina */
+    height: 30px;
+}
+
+H3 {
+    /* Alineació i color per a tots els H3 del lloc */
+    text-align: center;
+    color: blue;
+}
+
+p {
+    /* Alineació i color per a tots els paràgrafs del lloc */
+    text-align: center;
+    color: blue;
+}
