@@ -227,3 +227,7 @@ p {
     text-align: center;
     color: blue;
 }
+
+li{
+    list-style-type: none;
+}
