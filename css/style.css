@@ -207,7 +207,9 @@ footer {
     /* Fons de peu de pàgina, amplada, i farciment */
     background: #00796b; 
     width: 100%;
-    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 footer h1 {
@@ -259,5 +261,78 @@ li{
     list-style-type: none;
 }
 
+main{
+    display: inline-block;
+}
+
+.search-bar{
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 0;
+    margin-bottom: 100px;
+}
+
+.listagrupos{
+    display: inline-block;
+}
+
+.grupo{
+    display: inline-block;
+}
+
+.grupo p{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.grupo img{
+    display: inline-block;
+    width: 200px;
+    height: 140px;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0; 
+    text-align: left;
+}
+
+.grupo h4{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.album{
+    display: inline-block;
+}
+
+.album img{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+}
+
+.album ul{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.album h4{
+    text-align: left;
+    font-size: 16px;
+}
+
+.paginas{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#duki{
+    display: inline-block;
+    margin-right: 70px;
+}
 
 
