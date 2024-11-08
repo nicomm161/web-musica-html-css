@@ -8,6 +8,7 @@ body {
     background: #e0f7fa; 
     color: #333;
     text-align: center;
+    
 }
 
 header {
@@ -76,10 +77,34 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#login{
+    display: inline-block;
+    text-align: left;
+    background: #b2dfdb; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+#login-title{
+    margin-top: 190px;
+}
+#register{
+    margin-top: 30px;
+    margin-bottom: 195px;
+}
 label {
     /* Mostra les etiquetes en bloc i afegeix marges per a separar-les dels altres elements */
     display: block;
     margin: 10px 0 5px;
+}
+
+#register-title{
+    margin-top: 60px;
+}
+
+#login-register{
+    margin-bottom: 60px;
 }
 
 input {
@@ -153,6 +178,8 @@ button:hover {
     width: 80%;
     margin-left: 30px;
     display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #noticias h3 {
